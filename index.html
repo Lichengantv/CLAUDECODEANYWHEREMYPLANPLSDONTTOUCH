@@ -417,7 +417,7 @@ function renderFileTree(){
   fileTree.innerHTML = '';
   const paths = Object.keys(state.files);
   if(paths.length === 0){
-    fileTree.innerHTML = '<div class="file-tree-empty">No files yet. Ask Claude to create something and files will appear here as they\\'re generated.</div>';
+    fileTree.innerHTML = '<div class="file-tree-empty">No files yet. Ask Claude to create something and files will appear here as they are generated.</div>';
     return;
   }
   const tree = buildTree(paths);
